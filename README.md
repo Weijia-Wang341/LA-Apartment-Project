@@ -18,7 +18,7 @@ This website includes two dataframes (Apartment.com and Zillow.com) and a map:
 <img width="994" alt="Screen Shot 2022-04-28 at 10 31 53 PM" src="https://user-images.githubusercontent.com/73563140/165889801-e06e6cf2-fc23-4ac5-aa99-3543ea8fc949.png">
 
 ## Website Link
-https://rental1031.herokuapp.com/
+* https://rental1031.herokuapp.com/
 
 
 ## Contributors
