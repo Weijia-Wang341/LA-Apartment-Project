@@ -10,8 +10,11 @@ This is a website for tracking Los Angeles apartments' availability, prices, loc
 ## Features
 This website includes two dataframes (Apartment.com and Zillow.com) and a map: 
 * dataframs include: address, number of beds, amenities, links, names, and prices:
+<img width="1125" alt="Screen Shot 2022-04-28 at 10 30 36 PM" src="https://user-images.githubusercontent.com/73563140/165889794-b35037de-a8f6-482a-b05e-f2d1eb2cc17f.png">
 * Searching engine by typing keywords:
+<img width="1177" alt="Screen Shot 2022-04-28 at 10 30 27 PM" src="https://user-images.githubusercontent.com/73563140/165889760-71198f51-aa25-4a79-86e2-54e19ea0a3fc.png">
 * A map:
+<img width="994" alt="Screen Shot 2022-04-28 at 10 31 53 PM" src="https://user-images.githubusercontent.com/73563140/165889801-e06e6cf2-fc23-4ac5-aa99-3543ea8fc949.png">
 
 ## Website Link
 https://rental1031.herokuapp.com/
