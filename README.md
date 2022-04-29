@@ -4,7 +4,7 @@ This is a website for tracking Los Angeles apartments' availability, prices, loc
 
 ## Table of Contents
 * [Features](https://github.com/Weijia-Wang341/LA-Apartment-Project#features)
-* Website Link
+* [Website Link](https://github.com/Weijia-Wang341/LA-Apartment-Project/blob/main/README.md#website-link)
 * Contributors
 
 ## Features
