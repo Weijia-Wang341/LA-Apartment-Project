@@ -1,0 +1,45 @@
+{% extends "base.html" %} 
+{% block title %}
+Apartment
+{% endblock %}
+
+{% block content %}
+<div align="center">
+    <head>
+        <meta charset="UTF-8">
+        <h1>Zillow.com</h1>
+    </head>
+
+
+    <body>
+        <h3 align="center">Search</h3>
+    </div>
+    <form action=""  method="POST">
+
+    <div class="form-group" display="flex">
+        <label for="ZillowMin">Min Price</label>
+        <input class="form-control" 
+              name="ZillowMin"
+              placeholder="Put a number"
+        ></input>
+    
+        <label for="ZillowMax">Max Price</label>
+        <input class="form-control" 
+              name="ZillowMax"
+              placeholder="Put a number"
+        ></input>
+       
+      </div>
+
+
+
+
+
+        <input type='submit'>
+    {% for table in tables %}
+                {{titles[loop.index]}}
+                {{ table|safe }}
+    {% endfor %}
+    </body>
+
+{% endblock %}
