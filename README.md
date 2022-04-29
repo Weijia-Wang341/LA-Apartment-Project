@@ -5,6 +5,18 @@ This is a website for tracking Los Angeles apartments' availability, prices, loc
 ## Table of Contents
 * Features
 * Website Link
+* Get Started
 * Contributors
 
 ## Features
+
+
+## Website Link
+https://rental1031.herokuapp.com/
+
+## Get Started
+
+## Contributors
+* Weijia Wang
+* He Qingrui
+* Yichen Fan
