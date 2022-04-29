@@ -1,6 +1,6 @@
 # LA-Apartment-Project
 
-This is a website for tracking Los Angeles apartments' availability, prices, locations, and amenities using information from Apartment.com and Zillow.com. Also, the purpose is to help people find suitable apartment more efficiently. 
+This is a website for tracking Los Angeles apartments' availability, prices, locations, and amenities using information from Apartment.com and Zillow.com. Also, the purpose is to help people find suitable apartments more efficiently. This project is done by HTML and Python with [Flask](https://flask.palletsprojects.com/en/2.1.x/).
 
 ## Table of Contents
 * [Features](https://github.com/Weijia-Wang341/LA-Apartment-Project#features)
