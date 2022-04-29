@@ -3,7 +3,7 @@
 This is a website for tracking Los Angeles apartments' availability, prices, locations, and amenities using information from Apartment.com and Zillow.com. Also, the purpose is to help people find suitable apartment more efficiently. 
 
 ## Table of Contents
-* https://github.com/Weijia-Wang341/LA-Apartment-Project#features
+* (Features)[https://github.com/Weijia-Wang341/LA-Apartment-Project#features]
 * Website Link
 * Contributors
 
