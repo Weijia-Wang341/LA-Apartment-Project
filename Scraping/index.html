@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_742cfa095d2d35f0ebdae406799a215e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_742cfa095d2d35f0ebdae406799a215e" ></div>
+        
+</body>
+<script>    
+    
+            var map_742cfa095d2d35f0ebdae406799a215e = L.map(
+                "map_742cfa095d2d35f0ebdae406799a215e",
+                {
+                    center: [34.02266241276261, -118.28518154983786],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    titles: "OpenStreeMap",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ca9e251f2d9655b9d219cc9d93b1387 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_742cfa095d2d35f0ebdae406799a215e);
+        
+    
+            var marker_cluster_39371bef735c7a5711ee94884b15d137 = L.markerClusterGroup(
+                {}
+            );
+            map_742cfa095d2d35f0ebdae406799a215e.addLayer(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var marker_e81a1fc407b3d02b1fa9b268381d6858 = L.marker(
+                [34.063624, -118.354622],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_877d4c797e2e50a827b79ab9510b8dc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e81a1fc407b3d02b1fa9b268381d6858.setIcon(icon_877d4c797e2e50a827b79ab9510b8dc6);
+        
+    
+        var popup_665f0a740c2fb0897fc77b52f8022a35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62f4a259442620ee283cadd423abf45e = $(`<div id="html_62f4a259442620ee283cadd423abf45e" style="width: 100.0%; height: 100.0%;">$3,615 - 8,223<br><br>One Museum Square<br><br>640 S Curson Ave, Los Angeles, CA 90036</div>`)[0];
+            popup_665f0a740c2fb0897fc77b52f8022a35.setContent(html_62f4a259442620ee283cadd423abf45e);
+        
+
+        marker_e81a1fc407b3d02b1fa9b268381d6858.bindPopup(popup_665f0a740c2fb0897fc77b52f8022a35)
+        ;
+
+        
+    
+    
+            var marker_591c7dd2e6d2bd670022990b40d2fb42 = L.marker(
+                [34.063575, -118.414677],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_9a942f875c7e74aab1a9f894681592fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_591c7dd2e6d2bd670022990b40d2fb42.setIcon(icon_9a942f875c7e74aab1a9f894681592fb);
+        
+    
+        var popup_bdf3b7c392644582660cb45cc232a339 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90a18638d3cd3aee43c441141d787b96 = $(`<div id="html_90a18638d3cd3aee43c441141d787b96" style="width: 100.0%; height: 100.0%;">$11,700 - 28,600<br><br>Ten Thousand<br><br>10000 Santa Monica Blvd, Los Angeles, CA 90067</div>`)[0];
+            popup_bdf3b7c392644582660cb45cc232a339.setContent(html_90a18638d3cd3aee43c441141d787b96);
+        
+
+        marker_591c7dd2e6d2bd670022990b40d2fb42.bindPopup(popup_bdf3b7c392644582660cb45cc232a339)
+        ;
+
+        
+    
+    
+            var marker_f7d92b172ecb8db71ceedb6b60f7ab33 = L.marker(
+                [34.027956, -118.371998],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_54b58567d0ba84baf1e24d3c73d569f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7d92b172ecb8db71ceedb6b60f7ab33.setIcon(icon_54b58567d0ba84baf1e24d3c73d569f8);
+        
+    
+        var popup_2bc8ed325889ea939ce37536ef5c4d18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95d580bbf92a2a215de1258c3cb6fe27 = $(`<div id="html_95d580bbf92a2a215de1258c3cb6fe27" style="width: 100.0%; height: 100.0%;">$3,780 - 16,569<br><br>ARQ<br><br>3311 S La Cienega Blvd, Los Angeles, CA 90016</div>`)[0];
+            popup_2bc8ed325889ea939ce37536ef5c4d18.setContent(html_95d580bbf92a2a215de1258c3cb6fe27);
+        
+
+        marker_f7d92b172ecb8db71ceedb6b60f7ab33.bindPopup(popup_2bc8ed325889ea939ce37536ef5c4d18)
+        ;
+
+        
+    
+    
+            var marker_8d66835192767a3756af9b161fb6e407 = L.marker(
+                [34.104411, -118.33616],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_2a489bc0a48092f9e241d4c6454e65c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d66835192767a3756af9b161fb6e407.setIcon(icon_2a489bc0a48092f9e241d4c6454e65c0);
+        
+    
+        var popup_81a080a7d7a7b9c035187f823ac19079 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17ece6775e822d42a9128b6edabd19e9 = $(`<div id="html_17ece6775e822d42a9128b6edabd19e9" style="width: 100.0%; height: 100.0%;">$4,102 - 8,500<br><br>ZEN Hollywood<br><br>1825 N Las Palmas Ave, Los Angeles, CA 90028</div>`)[0];
+            popup_81a080a7d7a7b9c035187f823ac19079.setContent(html_17ece6775e822d42a9128b6edabd19e9);
+        
+
+        marker_8d66835192767a3756af9b161fb6e407.bindPopup(popup_81a080a7d7a7b9c035187f823ac19079)
+        ;
+
+        
+    
+    
+            var marker_f29ae5aee0838914d326d88aac522820 = L.marker(
+                [34.048718, -118.46178],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_7313a1be1052c6f0d2f84cf8a4c1c939 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f29ae5aee0838914d326d88aac522820.setIcon(icon_7313a1be1052c6f0d2f84cf8a4c1c939);
+        
+    
+        var popup_58bc06aca9cd93499f7603438da5f019 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98a944df62f075d7168d66c8ac5ccdd4 = $(`<div id="html_98a944df62f075d7168d66c8ac5ccdd4" style="width: 100.0%; height: 100.0%;">$3,500 - 30,000<br><br>The Landmark Los Angeles<br><br>11750 Wilshire Blvd, Los Angeles, CA 90025</div>`)[0];
+            popup_58bc06aca9cd93499f7603438da5f019.setContent(html_98a944df62f075d7168d66c8ac5ccdd4);
+        
+
+        marker_f29ae5aee0838914d326d88aac522820.bindPopup(popup_58bc06aca9cd93499f7603438da5f019)
+        ;
+
+        
+    
+    
+            var marker_fc9af5423a1bec7def5462bc3f810bc0 = L.marker(
+                [34.0488, -118.262827],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_e2a01c723dc8f5749c6c79f3d2dd3a99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc9af5423a1bec7def5462bc3f810bc0.setIcon(icon_e2a01c723dc8f5749c6c79f3d2dd3a99);
+        
+    
+        var popup_4b9622f1cf19f701670028f97e9a4589 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_868a9819dd37a6694c0bccf9f53a70cc = $(`<div id="html_868a9819dd37a6694c0bccf9f53a70cc" style="width: 100.0%; height: 100.0%;">$2,702 - 28,310<br><br>THEA at Metropolis<br><br>1000 W 8th St, Los Angeles, CA 90017</div>`)[0];
+            popup_4b9622f1cf19f701670028f97e9a4589.setContent(html_868a9819dd37a6694c0bccf9f53a70cc);
+        
+
+        marker_fc9af5423a1bec7def5462bc3f810bc0.bindPopup(popup_4b9622f1cf19f701670028f97e9a4589)
+        ;
+
+        
+    
+    
+            var marker_f1ede3456910a0d3fc554a224728b9db = L.marker(
+                [34.036344, -118.43461],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_d6815fc5e72ce452f014797846639dfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f1ede3456910a0d3fc554a224728b9db.setIcon(icon_d6815fc5e72ce452f014797846639dfd);
+        
+    
+        var popup_b7a172312945437047e34ab68ad63261 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_372025772121f2161d78d16a2aa491b1 = $(`<div id="html_372025772121f2161d78d16a2aa491b1" style="width: 100.0%; height: 100.0%;">$2,841 - 10,319<br><br>Linea<br><br>2431 S Sepulveda Blvd, Los Angeles, CA 90064</div>`)[0];
+            popup_b7a172312945437047e34ab68ad63261.setContent(html_372025772121f2161d78d16a2aa491b1);
+        
+
+        marker_f1ede3456910a0d3fc554a224728b9db.bindPopup(popup_b7a172312945437047e34ab68ad63261)
+        ;
+
+        
+    
+    
+            var marker_11c05573d4eb699b21cdf44e00936e0e = L.marker(
+                [34.101632, -118.32493],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_3b6d4ec21d80d8b8ec33289118e64a58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11c05573d4eb699b21cdf44e00936e0e.setIcon(icon_3b6d4ec21d80d8b8ec33289118e64a58);
+        
+    
+        var popup_0164ade3c8501badb77231405ffd9c31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c64334aaba4c97b2b62ca3aa04b13411 = $(`<div id="html_c64334aaba4c97b2b62ca3aa04b13411" style="width: 100.0%; height: 100.0%;">$2,200 - 3,900<br><br>Eastown Apartments<br><br>6201 Hollywood Blvd, Los Angeles, CA 90028</div>`)[0];
+            popup_0164ade3c8501badb77231405ffd9c31.setContent(html_c64334aaba4c97b2b62ca3aa04b13411);
+        
+
+        marker_11c05573d4eb699b21cdf44e00936e0e.bindPopup(popup_0164ade3c8501badb77231405ffd9c31)
+        ;
+
+        
+    
+    
+            var marker_2b23e91db602baddf8f1c2587718a6cb = L.marker(
+                [34.099007, -118.243733],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_716e6e81346f2d238aaa966f7b8106dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b23e91db602baddf8f1c2587718a6cb.setIcon(icon_716e6e81346f2d238aaa966f7b8106dd);
+        
+    
+        var popup_b773391cd536014f4a857a4d193034da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42fbd59308eceadc69850bddbf58e022 = $(`<div id="html_42fbd59308eceadc69850bddbf58e022" style="width: 100.0%; height: 100.0%;">$2,500 - 6,500<br><br>Blake Lofts<br><br>1901 Blake Ave, Los Angeles, CA 90039</div>`)[0];
+            popup_b773391cd536014f4a857a4d193034da.setContent(html_42fbd59308eceadc69850bddbf58e022);
+        
+
+        marker_2b23e91db602baddf8f1c2587718a6cb.bindPopup(popup_b773391cd536014f4a857a4d193034da)
+        ;
+
+        
+    
+    
+            var marker_485a0feafe221a841b47d73f17c4c763 = L.marker(
+                [34.042073, -118.266713],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_0f77ea74f7ac3f906e239567863dcdf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_485a0feafe221a841b47d73f17c4c763.setIcon(icon_0f77ea74f7ac3f906e239567863dcdf2);
+        
+    
+        var popup_9cd022473a1244262f87d899a34a77e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ca31123209e0a10b590db06595ed3ba = $(`<div id="html_0ca31123209e0a10b590db06595ed3ba" style="width: 100.0%; height: 100.0%;">$3,079 - 26,059<br><br>Circa LA<br><br>1200 S Figueroa St, Los Angeles, CA 90015</div>`)[0];
+            popup_9cd022473a1244262f87d899a34a77e1.setContent(html_0ca31123209e0a10b590db06595ed3ba);
+        
+
+        marker_485a0feafe221a841b47d73f17c4c763.bindPopup(popup_9cd022473a1244262f87d899a34a77e1)
+        ;
+
+        
+    
+    
+            var marker_32e85ac8cd98f5f584d5b0e7c5d937cc = L.marker(
+                [34.02749, -118.372021],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_9fcdb0b5a5ce11189a175420e60a0257 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_32e85ac8cd98f5f584d5b0e7c5d937cc.setIcon(icon_9fcdb0b5a5ce11189a175420e60a0257);
+        
+    
+        var popup_40f4f97384c9465e4382b4b9cb76a669 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_229a42b8f865f3c52157166840549e26 = $(`<div id="html_229a42b8f865f3c52157166840549e26" style="width: 100.0%; height: 100.0%;">$2,657 - 6,602<br><br>VOX<br><br>3333 S La Cienega Blvd, Los Angeles, CA 90016</div>`)[0];
+            popup_40f4f97384c9465e4382b4b9cb76a669.setContent(html_229a42b8f865f3c52157166840549e26);
+        
+
+        marker_32e85ac8cd98f5f584d5b0e7c5d937cc.bindPopup(popup_40f4f97384c9465e4382b4b9cb76a669)
+        ;
+
+        
+    
+    
+            var marker_c9afded328f08e86d9a40f0664588f57 = L.marker(
+                [34.049408, -118.247757],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_7441831d2d615cd66300698c9a618444 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9afded328f08e86d9a40f0664588f57.setIcon(icon_7441831d2d615cd66300698c9a618444);
+        
+    
+        var popup_fccd8c81d4a7a4a9b62924f103beb204 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26cc6b8b55d6d118fc9f7eb8e7d0b8b7 = $(`<div id="html_26cc6b8b55d6d118fc9f7eb8e7d0b8b7" style="width: 100.0%; height: 100.0%;">$2,691 - 13,206<br><br>HWH Luxury Living<br><br>354 S Spring St, Los Angeles, CA 90013</div>`)[0];
+            popup_fccd8c81d4a7a4a9b62924f103beb204.setContent(html_26cc6b8b55d6d118fc9f7eb8e7d0b8b7);
+        
+
+        marker_c9afded328f08e86d9a40f0664588f57.bindPopup(popup_fccd8c81d4a7a4a9b62924f103beb204)
+        ;
+
+        
+    
+    
+            var marker_891fa0c72f3b1655dd88b7c854dec73e = L.marker(
+                [34.040515, -118.460483],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_247b54a3ff5df7c0ec394e6e1d0f8768 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_891fa0c72f3b1655dd88b7c854dec73e.setIcon(icon_247b54a3ff5df7c0ec394e6e1d0f8768);
+        
+    
+        var popup_efa8f051d767f5afd9aa2a6908376a7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17e40346e72553d5da7684ac55b8cbfc = $(`<div id="html_17e40346e72553d5da7684ac55b8cbfc" style="width: 100.0%; height: 100.0%;">Call for Rent<br><br>1532 Brockton Avenue<br><br>1532 Brockton Ave, Los Angeles, CA 90025</div>`)[0];
+            popup_efa8f051d767f5afd9aa2a6908376a7f.setContent(html_17e40346e72553d5da7684ac55b8cbfc);
+        
+
+        marker_891fa0c72f3b1655dd88b7c854dec73e.bindPopup(popup_efa8f051d767f5afd9aa2a6908376a7f)
+        ;
+
+        
+    
+    
+            var marker_02248bcfe44c057e9955e1fec3d161d8 = L.marker(
+                [34.051838, -118.26218],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_1d22ac2384d19548d929e94738068df0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02248bcfe44c057e9955e1fec3d161d8.setIcon(icon_1d22ac2384d19548d929e94738068df0);
+        
+    
+        var popup_00089a6235e43c80060701cc8b8e8825 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_740103e2b9c6ff32e03cd8275918c217 = $(`<div id="html_740103e2b9c6ff32e03cd8275918c217" style="width: 100.0%; height: 100.0%;">$2,650 - 5,145<br><br>TenTen Downtown<br><br>1027 Wilshire Blvd, Los Angeles, CA 90017</div>`)[0];
+            popup_00089a6235e43c80060701cc8b8e8825.setContent(html_740103e2b9c6ff32e03cd8275918c217);
+        
+
+        marker_02248bcfe44c057e9955e1fec3d161d8.bindPopup(popup_00089a6235e43c80060701cc8b8e8825)
+        ;
+
+        
+    
+    
+            var marker_0c0879f21b836c6871087dd2614aee84 = L.marker(
+                [34.077263, -118.313006],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_5a29df00002546dc878363307155f9b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0c0879f21b836c6871087dd2614aee84.setIcon(icon_5a29df00002546dc878363307155f9b4);
+        
+    
+        var popup_32fe1e10ff4915709cbffb06c1b381db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a3d1118033464ff2fc8205352a5ccf2 = $(`<div id="html_8a3d1118033464ff2fc8205352a5ccf2" style="width: 100.0%; height: 100.0%;">$3,925<br><br>4847 Oakwood Ave. Los Angeles, CA<br><br>4847 Oakwood Ave, Los Angeles, CA 90004</div>`)[0];
+            popup_32fe1e10ff4915709cbffb06c1b381db.setContent(html_8a3d1118033464ff2fc8205352a5ccf2);
+        
+
+        marker_0c0879f21b836c6871087dd2614aee84.bindPopup(popup_32fe1e10ff4915709cbffb06c1b381db)
+        ;
+
+        
+    
+    
+            var marker_b1a8488537a42844bdb8b00b7f977da7 = L.marker(
+                [34.096745, -118.347053],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_b24d1abdb6cb0fac798e087196b3b6b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1a8488537a42844bdb8b00b7f977da7.setIcon(icon_b24d1abdb6cb0fac798e087196b3b6b3);
+        
+    
+        var popup_33692a4fb9d3a19879d55281684b2b40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1167899365ac20a355a5d0231581f0f0 = $(`<div id="html_1167899365ac20a355a5d0231581f0f0" style="width: 100.0%; height: 100.0%;">$3,200<br><br>URBANLUX SUNSET PREMIUM<br><br>1425 N Alta Vista Blvd, Los Angeles, CA 90046</div>`)[0];
+            popup_33692a4fb9d3a19879d55281684b2b40.setContent(html_1167899365ac20a355a5d0231581f0f0);
+        
+
+        marker_b1a8488537a42844bdb8b00b7f977da7.bindPopup(popup_33692a4fb9d3a19879d55281684b2b40)
+        ;
+
+        
+    
+    
+            var marker_acde7f3d86c6790fb7113d5c40cf067a = L.marker(
+                [34.030105, -118.44874],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_db4e9415f41a260d56d34a7ab01e59ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_acde7f3d86c6790fb7113d5c40cf067a.setIcon(icon_db4e9415f41a260d56d34a7ab01e59ad);
+        
+    
+        var popup_f937341fa0dac84e65a511d8ea1485ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9342d6232255f442ae8cbb261562683e = $(`<div id="html_9342d6232255f442ae8cbb261562683e" style="width: 100.0%; height: 100.0%;">$2,615 - 3,245<br><br>&Pico<br><br>11916 W Pico Blvd, Los Angeles, CA 90064</div>`)[0];
+            popup_f937341fa0dac84e65a511d8ea1485ff.setContent(html_9342d6232255f442ae8cbb261562683e);
+        
+
+        marker_acde7f3d86c6790fb7113d5c40cf067a.bindPopup(popup_f937341fa0dac84e65a511d8ea1485ff)
+        ;
+
+        
+    
+    
+            var marker_844f472927cb6ffd7903687bc3b4f4f8 = L.marker(
+                [34.101634, -118.324684],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_bd24b72a00e7f38375cf8b0402037013 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_844f472927cb6ffd7903687bc3b4f4f8.setIcon(icon_bd24b72a00e7f38375cf8b0402037013);
+        
+    
+        var popup_bc38c2071b43c45716df31acd2a6424d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c416a464c9a401a80bc21ef65b7c4c38 = $(`<div id="html_c416a464c9a401a80bc21ef65b7c4c38" style="width: 100.0%; height: 100.0%;">$2,380 - 6,655<br><br>El Centro Apartments and Bungalows<br><br>6200 Hollywood Blvd, Los Angeles, CA 90028</div>`)[0];
+            popup_bc38c2071b43c45716df31acd2a6424d.setContent(html_c416a464c9a401a80bc21ef65b7c4c38);
+        
+
+        marker_844f472927cb6ffd7903687bc3b4f4f8.bindPopup(popup_bc38c2071b43c45716df31acd2a6424d)
+        ;
+
+        
+    
+    
+            var marker_e013ecc374dde9c7b0919af04517ff6c = L.marker(
+                [34.060803, -118.284205],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_33cb1edfcdfa586a9d15c15fecade8d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e013ecc374dde9c7b0919af04517ff6c.setIcon(icon_33cb1edfcdfa586a9d15c15fecade8d9);
+        
+    
+        var popup_23f9ccdab45f2157777e70be0b67e806 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e224931174941af95eae5269621344ce = $(`<div id="html_e224931174941af95eae5269621344ce" style="width: 100.0%; height: 100.0%;">$2,404 - 32,057<br><br>Kurve<br><br>2801 Sunset Pl, Los Angeles, CA 90005</div>`)[0];
+            popup_23f9ccdab45f2157777e70be0b67e806.setContent(html_e224931174941af95eae5269621344ce);
+        
+
+        marker_e013ecc374dde9c7b0919af04517ff6c.bindPopup(popup_23f9ccdab45f2157777e70be0b67e806)
+        ;
+
+        
+    
+    
+            var marker_dc5afc9e41b00d19087811aeb03803a4 = L.marker(
+                [34.057683, -118.304168],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_c447c17f21e313e2978d157a0c01767d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dc5afc9e41b00d19087811aeb03803a4.setIcon(icon_c447c17f21e313e2978d157a0c01767d);
+        
+    
+        var popup_6cacc8092e5e48969bdbc2ad66a58d97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_303bbf2fb07631420e43ddbfd3c7c64f = $(`<div id="html_303bbf2fb07631420e43ddbfd3c7c64f" style="width: 100.0%; height: 100.0%;">$2,615 - 3,177<br><br>The Harper<br><br>800 S Harvard Blvd, Los Angeles, CA 90005</div>`)[0];
+            popup_6cacc8092e5e48969bdbc2ad66a58d97.setContent(html_303bbf2fb07631420e43ddbfd3c7c64f);
+        
+
+        marker_dc5afc9e41b00d19087811aeb03803a4.bindPopup(popup_6cacc8092e5e48969bdbc2ad66a58d97)
+        ;
+
+        
+    
+    
+            var marker_12e34321e65427e18ed6044c1708c66d = L.marker(
+                [34.021879, -118.301364],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_7310a23ea252aa3d8f299680d80006ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12e34321e65427e18ed6044c1708c66d.setIcon(icon_7310a23ea252aa3d8f299680d80006ca);
+        
+    
+        var popup_a8d351d1e83061f886c9c177e87534ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8528d947b79a20519d47ce7b9dd04aa = $(`<div id="html_f8528d947b79a20519d47ce7b9dd04aa" style="width: 100.0%; height: 100.0%;">$1,288 - 5,212<br><br>Tripalink V-Living near USC<br><br>1436 W 36th Pl, Los Angeles, CA 90018</div>`)[0];
+            popup_a8d351d1e83061f886c9c177e87534ed.setContent(html_f8528d947b79a20519d47ce7b9dd04aa);
+        
+
+        marker_12e34321e65427e18ed6044c1708c66d.bindPopup(popup_a8d351d1e83061f886c9c177e87534ed)
+        ;
+
+        
+    
+    
+            var marker_57585eb6b35c20d5335b5a72add2279a = L.marker(
+                [34.07911, -118.317042],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_eeb71905f7acb0f06cdfb7c4edf43f55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57585eb6b35c20d5335b5a72add2279a.setIcon(icon_eeb71905f7acb0f06cdfb7c4edf43f55);
+        
+    
+        var popup_5d7d394c9daa5953cb53e9936e1119b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a40d6db1b8bb0d15d79d5691f2c63db = $(`<div id="html_8a40d6db1b8bb0d15d79d5691f2c63db" style="width: 100.0%; height: 100.0%;">$1,260 - 1,625<br><br>Common Elmwood<br><br>418 N Norton Ave, Los Angeles, CA 90004</div>`)[0];
+            popup_5d7d394c9daa5953cb53e9936e1119b6.setContent(html_8a40d6db1b8bb0d15d79d5691f2c63db);
+        
+
+        marker_57585eb6b35c20d5335b5a72add2279a.bindPopup(popup_5d7d394c9daa5953cb53e9936e1119b6)
+        ;
+
+        
+    
+    
+            var marker_82b717d56e5ea9bc30ffc2eb2d1098d2 = L.marker(
+                [34.029528, -118.415323],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_e68eff72deecf21dca275cb6d2eefd7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82b717d56e5ea9bc30ffc2eb2d1098d2.setIcon(icon_e68eff72deecf21dca275cb6d2eefd7a);
+        
+    
+        var popup_9f8cb6efecc200f309107f5916bcb161 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1cb964aadfceae778c04d6520c935a7 = $(`<div id="html_a1cb964aadfceae778c04d6520c935a7" style="width: 100.0%; height: 100.0%;">$2,125 - 3,350<br><br>Woodcliff Apartments<br><br>3201 Overland Ave, Los Angeles, CA 90034</div>`)[0];
+            popup_9f8cb6efecc200f309107f5916bcb161.setContent(html_a1cb964aadfceae778c04d6520c935a7);
+        
+
+        marker_82b717d56e5ea9bc30ffc2eb2d1098d2.bindPopup(popup_9f8cb6efecc200f309107f5916bcb161)
+        ;
+
+        
+    
+    
+            var marker_1dfdd08ed19d9c798b2af8a5bfb5b446 = L.marker(
+                [34.094911, -118.308634],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_c96f41b8b8bce022bb7aae545c1d02b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1dfdd08ed19d9c798b2af8a5bfb5b446.setIcon(icon_c96f41b8b8bce022bb7aae545c1d02b3);
+        
+    
+        var popup_ae51e57cde43e5d2937e7e333eb3e239 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b57389c049f1d07985b7c1449ccb6eb = $(`<div id="html_8b57389c049f1d07985b7c1449ccb6eb" style="width: 100.0%; height: 100.0%;">$1,155 - 1,460<br><br>Common Fountain<br><br>5460 W Fountain Ave, Los Angeles, CA 90029</div>`)[0];
+            popup_ae51e57cde43e5d2937e7e333eb3e239.setContent(html_8b57389c049f1d07985b7c1449ccb6eb);
+        
+
+        marker_1dfdd08ed19d9c798b2af8a5bfb5b446.bindPopup(popup_ae51e57cde43e5d2937e7e333eb3e239)
+        ;
+
+        
+    
+    
+            var marker_1bcb2754c962508a894879f19dd3f9ef = L.marker(
+                [34.07169, -118.287929],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_b048ca7c97eeb4e81f92cd97ddd28df9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1bcb2754c962508a894879f19dd3f9ef.setIcon(icon_b048ca7c97eeb4e81f92cd97ddd28df9);
+        
+    
+        var popup_68dccfc0f406121039baf88d240beef4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_486e9938fac466c3d901741e40f57eec = $(`<div id="html_486e9938fac466c3d901741e40f57eec" style="width: 100.0%; height: 100.0%;">$1,717 - 6,552<br><br>The Chadwick<br><br>209 S Westmoreland Ave, Los Angeles, CA 90004</div>`)[0];
+            popup_68dccfc0f406121039baf88d240beef4.setContent(html_486e9938fac466c3d901741e40f57eec);
+        
+
+        marker_1bcb2754c962508a894879f19dd3f9ef.bindPopup(popup_68dccfc0f406121039baf88d240beef4)
+        ;
+
+        
+    
+    
+            var marker_7ef7331c03d14cfc71cd88f666904639 = L.marker(
+                [34.061737, -118.30155],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_50dbb22f9de0dcf3a919aabffcb1bfbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ef7331c03d14cfc71cd88f666904639.setIcon(icon_50dbb22f9de0dcf3a919aabffcb1bfbd);
+        
+    
+        var popup_843ae2129ea63b0675862d2bf5fbf396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06343b19404e11ad3c8783a998dea572 = $(`<div id="html_06343b19404e11ad3c8783a998dea572" style="width: 100.0%; height: 100.0%;">$1,934 - 5,781<br><br>The Gemma<br><br>3540 Wilshire Blvd, Los Angeles, CA 90010</div>`)[0];
+            popup_843ae2129ea63b0675862d2bf5fbf396.setContent(html_06343b19404e11ad3c8783a998dea572);
+        
+
+        marker_7ef7331c03d14cfc71cd88f666904639.bindPopup(popup_843ae2129ea63b0675862d2bf5fbf396)
+        ;
+
+        
+    
+    
+            var marker_1fffb988283983c6d3ad5ec59ee89497 = L.marker(
+                [34.051502, -118.305234],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_ff689aa380e7d4a5c9fc99f833ef507d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1fffb988283983c6d3ad5ec59ee89497.setIcon(icon_ff689aa380e7d4a5c9fc99f833ef507d);
+        
+    
+        var popup_a011c5eadfc6c8d8053daf568a590f45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ee0110fb103d41aad9c037c0963136f = $(`<div id="html_8ee0110fb103d41aad9c037c0963136f" style="width: 100.0%; height: 100.0%;">Call for Rent<br><br>1039 S. Hobart Blvd. Koreatown/Los Angeles...<br><br>1039 S Hobart Blvd, Los Angeles, CA 90006</div>`)[0];
+            popup_a011c5eadfc6c8d8053daf568a590f45.setContent(html_8ee0110fb103d41aad9c037c0963136f);
+        
+
+        marker_1fffb988283983c6d3ad5ec59ee89497.bindPopup(popup_a011c5eadfc6c8d8053daf568a590f45)
+        ;
+
+        
+    
+    
+            var marker_9c121d6e1382891fcafd389784162d2b = L.marker(
+                [34.045758, -118.453547],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_6b6cce98c895aae8e3d2f9075cb56606 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c121d6e1382891fcafd389784162d2b.setIcon(icon_6b6cce98c895aae8e3d2f9075cb56606);
+        
+    
+        var popup_afd02ee0863ff9b6bbbb5ebd7d11968d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_081b44d1b905a8f6f489a4c3fce0d9f0 = $(`<div id="html_081b44d1b905a8f6f489a4c3fce0d9f0" style="width: 100.0%; height: 100.0%;">$1,228 - 5,395<br><br>The Colby<br><br>1515 Colby Ave, Los Angeles, CA 90025</div>`)[0];
+            popup_afd02ee0863ff9b6bbbb5ebd7d11968d.setContent(html_081b44d1b905a8f6f489a4c3fce0d9f0);
+        
+
+        marker_9c121d6e1382891fcafd389784162d2b.bindPopup(popup_afd02ee0863ff9b6bbbb5ebd7d11968d)
+        ;
+
+        
+    
+    
+            var marker_9ce4539593939806992f2d833b3ea869 = L.marker(
+                [34.086463, -118.371734],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_3adac7f62c699889a5aa491830aa32e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ce4539593939806992f2d833b3ea869.setIcon(icon_3adac7f62c699889a5aa491830aa32e3);
+        
+    
+        var popup_8643a3eec7f63ec221b070f036ec40fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27e0de34be617a5e123fa0d9a236d6fc = $(`<div id="html_27e0de34be617a5e123fa0d9a236d6fc" style="width: 100.0%; height: 100.0%;">$7,500 - 11,950<br><br>Asteras Kings<br><br>838 N Kings Rd, West Hollywood, CA 90069</div>`)[0];
+            popup_8643a3eec7f63ec221b070f036ec40fc.setContent(html_27e0de34be617a5e123fa0d9a236d6fc);
+        
+
+        marker_9ce4539593939806992f2d833b3ea869.bindPopup(popup_8643a3eec7f63ec221b070f036ec40fc)
+        ;
+
+        
+    
+    
+            var marker_2c4863f91a218dca981ea7c6ee9c5a62 = L.marker(
+                [34.240873, -118.533824],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_7f0533bfc2f77de5a17136b8579bdf1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2c4863f91a218dca981ea7c6ee9c5a62.setIcon(icon_7f0533bfc2f77de5a17136b8579bdf1f);
+        
+    
+        var popup_07bcd86b553d80bf95cbdaa5619bb268 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8f03f180be56f809cc8aa95d82a2a3c = $(`<div id="html_a8f03f180be56f809cc8aa95d82a2a3c" style="width: 100.0%; height: 100.0%;">$2,445 - 4,595<br><br>Aspire Apartments<br><br>9131 Darby Ave, Northridge, CA 91325</div>`)[0];
+            popup_07bcd86b553d80bf95cbdaa5619bb268.setContent(html_a8f03f180be56f809cc8aa95d82a2a3c);
+        
+
+        marker_2c4863f91a218dca981ea7c6ee9c5a62.bindPopup(popup_07bcd86b553d80bf95cbdaa5619bb268)
+        ;
+
+        
+    
+    
+            var marker_15756d3b45def65544a65ec5c37c6309 = L.marker(
+                [34.184818, -118.607689],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_53d0597a66d2589958489ee82c41b0dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_15756d3b45def65544a65ec5c37c6309.setIcon(icon_53d0597a66d2589958489ee82c41b0dc);
+        
+    
+        var popup_ebf0b15fe3016a40b91e6473016fb17f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5a6ea0ba2f36ada5bb7c44e95e28162 = $(`<div id="html_f5a6ea0ba2f36ada5bb7c44e95e28162" style="width: 100.0%; height: 100.0%;">$2,673 - 11,670<br><br>The Q Topanga<br><br>6262 Glade Ave, Woodland Hills, CA 91367</div>`)[0];
+            popup_ebf0b15fe3016a40b91e6473016fb17f.setContent(html_f5a6ea0ba2f36ada5bb7c44e95e28162);
+        
+
+        marker_15756d3b45def65544a65ec5c37c6309.bindPopup(popup_ebf0b15fe3016a40b91e6473016fb17f)
+        ;
+
+        
+    
+    
+            var marker_d0501782f385ae0b83fb81ae405d07a1 = L.marker(
+                [34.182856, -118.592787],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_4b8734a90d6d92296f9a4340bb72f32f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0501782f385ae0b83fb81ae405d07a1.setIcon(icon_4b8734a90d6d92296f9a4340bb72f32f);
+        
+    
+        var popup_80378482b06cfabe06fd79f4aaf180ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5b551a5d801d868d198ee1239974cd1 = $(`<div id="html_c5b551a5d801d868d198ee1239974cd1" style="width: 100.0%; height: 100.0%;">$2,708 - 6,607<br><br>The Q Variel<br><br>6200 Variel Ave, Woodland Hills, CA 91367</div>`)[0];
+            popup_80378482b06cfabe06fd79f4aaf180ce.setContent(html_c5b551a5d801d868d198ee1239974cd1);
+        
+
+        marker_d0501782f385ae0b83fb81ae405d07a1.bindPopup(popup_80378482b06cfabe06fd79f4aaf180ce)
+        ;
+
+        
+    
+    
+            var marker_1191fd63027583989466d8327ae61425 = L.marker(
+                [34.094202, -118.376678],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_625f5af5668a6f67a56e919f550771aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1191fd63027583989466d8327ae61425.setIcon(icon_625f5af5668a6f67a56e919f550771aa);
+        
+    
+        var popup_8ac5f80b7ce0636cbf47618ab36154c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1f8551711983768d37d8f23313a6f4d = $(`<div id="html_d1f8551711983768d37d8f23313a6f4d" style="width: 100.0%; height: 100.0%;">$4,210 - 8,125<br><br>AKA West Hollywood Apartment Residences<br><br>8500 W Sunset Blvd, West Hollywood, CA 90069</div>`)[0];
+            popup_8ac5f80b7ce0636cbf47618ab36154c4.setContent(html_d1f8551711983768d37d8f23313a6f4d);
+        
+
+        marker_1191fd63027583989466d8327ae61425.bindPopup(popup_8ac5f80b7ce0636cbf47618ab36154c4)
+        ;
+
+        
+    
+    
+            var marker_12bff74b998105ace20d2847551e4119 = L.marker(
+                [34.097008, -118.365956],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_77f3b52c5c0e56b83560f515031649ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12bff74b998105ace20d2847551e4119.setIcon(icon_77f3b52c5c0e56b83560f515031649ea);
+        
+    
+        var popup_17fc33f9a323a85657de7d7e154c15be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f6f8d825d2f659d20ceb9781a1f0949 = $(`<div id="html_5f6f8d825d2f659d20ceb9781a1f0949" style="width: 100.0%; height: 100.0%;">$4,395 - 6,495<br><br>Element WeHo<br><br>1425 N Crescent Heights, West Hollywood, CA 90046</div>`)[0];
+            popup_17fc33f9a323a85657de7d7e154c15be.setContent(html_5f6f8d825d2f659d20ceb9781a1f0949);
+        
+
+        marker_12bff74b998105ace20d2847551e4119.bindPopup(popup_17fc33f9a323a85657de7d7e154c15be)
+        ;
+
+        
+    
+    
+            var marker_147142c4989e09e83c8052e9fd122ac7 = L.marker(
+                [34.276285, -118.570392],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_efe82863cd22fa84e9513b85a7003aa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_147142c4989e09e83c8052e9fd122ac7.setIcon(icon_efe82863cd22fa84e9513b85a7003aa3);
+        
+    
+        var popup_c0258a1e80d661ee1b2a55e2191587fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b7ff0cdb461471789a76211ca764e9d = $(`<div id="html_7b7ff0cdb461471789a76211ca764e9d" style="width: 100.0%; height: 100.0%;">$2,500 - 5,418<br><br>The Vineyards Apartments<br><br>11401-11405 Porter Ranch Dr, Porter Ranch, CA 91326</div>`)[0];
+            popup_c0258a1e80d661ee1b2a55e2191587fc.setContent(html_7b7ff0cdb461471789a76211ca764e9d);
+        
+
+        marker_147142c4989e09e83c8052e9fd122ac7.bindPopup(popup_c0258a1e80d661ee1b2a55e2191587fc)
+        ;
+
+        
+    
+    
+            var marker_4bbc2ff421238efb01892930066d051a = L.marker(
+                [34.032777, -118.465323],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_1302dd49c1402df3fbc5ab07471bf641 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4bbc2ff421238efb01892930066d051a.setIcon(icon_1302dd49c1402df3fbc5ab07471bf641);
+        
+    
+        var popup_776f326b5358e4b4b885806fffe07233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4601ed86b27c8bf9aa781760387f1ac4 = $(`<div id="html_4601ed86b27c8bf9aa781760387f1ac4" style="width: 100.0%; height: 100.0%;">$2,957 - 5,560<br><br>Millennium Santa Monica<br><br>2929 Pennsylvania Ave, Santa Monica, CA 90404</div>`)[0];
+            popup_776f326b5358e4b4b885806fffe07233.setContent(html_4601ed86b27c8bf9aa781760387f1ac4);
+        
+
+        marker_4bbc2ff421238efb01892930066d051a.bindPopup(popup_776f326b5358e4b4b885806fffe07233)
+        ;
+
+        
+    
+    
+            var marker_fbbe9f12796bbbb0c8449650e773976e = L.marker(
+                [34.000076, -118.427529],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_e65488630a6ec4c8c0f36da9fe40a527 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fbbe9f12796bbbb0c8449650e773976e.setIcon(icon_e65488630a6ec4c8c0f36da9fe40a527);
+        
+    
+        var popup_c0c77726c9cd1c07734a0192c627ecb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eee258af52bd89a0f0bad9dd6d3a1fab = $(`<div id="html_eee258af52bd89a0f0bad9dd6d3a1fab" style="width: 100.0%; height: 100.0%;">$4,895<br><br>4025 Grandview Blvd Culver City, CA 90066<br><br>4025 Grand View Blvd, Culver City, CA 90066</div>`)[0];
+            popup_c0c77726c9cd1c07734a0192c627ecb1.setContent(html_eee258af52bd89a0f0bad9dd6d3a1fab);
+        
+
+        marker_fbbe9f12796bbbb0c8449650e773976e.bindPopup(popup_c0c77726c9cd1c07734a0192c627ecb1)
+        ;
+
+        
+    
+    
+            var marker_f79dab0278d3f79000f9a9a81a18e79e = L.marker(
+                [33.765914, -118.310714],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_e29a0fb4c53a69688651f9aee20f056f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f79dab0278d3f79000f9a9a81a18e79e.setIcon(icon_e29a0fb4c53a69688651f9aee20f056f);
+        
+    
+        var popup_5ec210d4bbd64fa0a65e81f723d2cb68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d193b7386ec2187465459689a3c79db = $(`<div id="html_9d193b7386ec2187465459689a3c79db" style="width: 100.0%; height: 100.0%;">$2,675 - 2,775<br><br>Seaport Homes Luxury Homes & Townhouses<br><br>28000 S Western Ave, San Pedro, CA 90732</div>`)[0];
+            popup_5ec210d4bbd64fa0a65e81f723d2cb68.setContent(html_9d193b7386ec2187465459689a3c79db);
+        
+
+        marker_f79dab0278d3f79000f9a9a81a18e79e.bindPopup(popup_5ec210d4bbd64fa0a65e81f723d2cb68)
+        ;
+
+        
+    
+    
+            var marker_3ae1c6ff7e023ff085348d3d1da0cc3d = L.marker(
+                [33.979039, -118.459157],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_641dfeba987244d89b9e19eb46d8d29f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3ae1c6ff7e023ff085348d3d1da0cc3d.setIcon(icon_641dfeba987244d89b9e19eb46d8d29f);
+        
+    
+        var popup_2e73395e1e51d94a3ffb30a9614309d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ed64c34bd9da79154fd075e3a34b2cd = $(`<div id="html_4ed64c34bd9da79154fd075e3a34b2cd" style="width: 100.0%; height: 100.0%;">$3,195 - 4,195<br><br>Shores<br><br>4201 Via Marina, Marina del Rey, CA 90292</div>`)[0];
+            popup_2e73395e1e51d94a3ffb30a9614309d4.setContent(html_4ed64c34bd9da79154fd075e3a34b2cd);
+        
+
+        marker_3ae1c6ff7e023ff085348d3d1da0cc3d.bindPopup(popup_2e73395e1e51d94a3ffb30a9614309d4)
+        ;
+
+        
+    
+    
+            var marker_6211a3cdba50515503900d321f470018 = L.marker(
+                [34.182983, -118.3936],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_a89f31f8e43b2635749077426caae209 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6211a3cdba50515503900d321f470018.setIcon(icon_a89f31f8e43b2635749077426caae209);
+        
+    
+        var popup_dc7a7814dd4ee37885f06f0943a71f82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de4d6fa1acfbe5dc0253f736dfd6d45b = $(`<div id="html_de4d6fa1acfbe5dc0253f736dfd6d45b" style="width: 100.0%; height: 100.0%;">$2,505 - 2,900<br><br>Alexan NoHo West<br><br>11950 W Erwin St, North Hollywood, CA 91606</div>`)[0];
+            popup_dc7a7814dd4ee37885f06f0943a71f82.setContent(html_de4d6fa1acfbe5dc0253f736dfd6d45b);
+        
+
+        marker_6211a3cdba50515503900d321f470018.bindPopup(popup_dc7a7814dd4ee37885f06f0943a71f82)
+        ;
+
+        
+    
+    
+            var marker_8aa4173e354fb26de3ae84514edaf84e = L.marker(
+                [34.169648, -118.608477],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_1c5d8cafbe656e7dde09db28eaa37595 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8aa4173e354fb26de3ae84514edaf84e.setIcon(icon_1c5d8cafbe656e7dde09db28eaa37595);
+        
+    
+        var popup_53d21b9cba4ac62f1c4e46cd1b1cb3e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22b6058c479231844f64d42068bce424 = $(`<div id="html_22b6058c479231844f64d42068bce424" style="width: 100.0%; height: 100.0%;">$2,374 - 3,822<br><br>Clarendon Apartments<br><br>22121 Clarendon St, Woodland Hills, CA 91367</div>`)[0];
+            popup_53d21b9cba4ac62f1c4e46cd1b1cb3e2.setContent(html_22b6058c479231844f64d42068bce424);
+        
+
+        marker_8aa4173e354fb26de3ae84514edaf84e.bindPopup(popup_53d21b9cba4ac62f1c4e46cd1b1cb3e2)
+        ;
+
+        
+    
+    
+            var marker_fa502e1c8cc6cac6cccfcdf56a62962a = L.marker(
+                [33.814129, -118.301007],
+                {}
+            ).addTo(marker_cluster_39371bef735c7a5711ee94884b15d137);
+        
+    
+            var icon_ede4a12981d3400618e7fba385b201cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa502e1c8cc6cac6cccfcdf56a62962a.setIcon(icon_ede4a12981d3400618e7fba385b201cd);
+        
+    
+        var popup_1d307ddc13384dee9b0b42a59ba5a306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec04712b603a88654bd1f68aa7c86f0d = $(`<div id="html_ec04712b603a88654bd1f68aa7c86f0d" style="width: 100.0%; height: 100.0%;">$3,800 - 4,000<br><br>Seacrest Homes Apartments<br><br>1311 W Sepulveda Blvd, Torrance, CA 90501</div>`)[0];
+            popup_1d307ddc13384dee9b0b42a59ba5a306.setContent(html_ec04712b603a88654bd1f68aa7c86f0d);
+        
+
+        marker_fa502e1c8cc6cac6cccfcdf56a62962a.bindPopup(popup_1d307ddc13384dee9b0b42a59ba5a306)
+        ;
+
+        
+    
+</script>
