@@ -5,16 +5,17 @@ This is a website for tracking Los Angeles apartments' availability, prices, loc
 ## Table of Contents
 * Features
 * Website Link
-* Get Started
 * Contributors
 
 ## Features
-
+This website includes two dataframes (Apartment.com and Zillow.com) and a map: 
+* dataframs include: address, number of beds, amenities, links, names, and prices:
+* Searching engine by typing keywords:
+* A map:
 
 ## Website Link
 https://rental1031.herokuapp.com/
 
-## Get Started
 
 ## Contributors
 * Weijia Wang
